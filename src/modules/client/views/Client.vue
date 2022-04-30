@@ -2,8 +2,7 @@
   <background />
   <div>
     <header-block :show-menu-button="false" />
-     <base-block/>
-   
+    <base-block />
   </div>
 </template>
 
@@ -17,11 +16,7 @@ export default {
   name: "Client",
   components: {
     HeaderBlock,
-    BaseBlock
+    BaseBlock,
   },
-  
- 
-  
-  
 };
 </script>
